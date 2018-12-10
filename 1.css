@@ -1,0 +1,140 @@
+
+ body{
+    font: 14px/1.5 Arial;
+    color: #666;
+}
+h2{
+    font-size: 16px;
+    color:rgb(96, 153, 155);
+}
+.page{
+  max-width: 900px;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(239,239,239);
+}
+
+header{
+  
+  background:rgb(60,60,60);
+  width: 100%;
+  text-align:center;
+  
+}
+header>h1{
+  margin: 80px 0 0;
+  color: white;
+  font-size: 30px;
+  
+}
+header>p{
+  margin: 0;
+  color: rgb(170, 170, 170);
+  padding: 6px 0 15px;
+  font-size: 14px;
+}
+main{
+  flex: 1;
+  min-height:calc(100vh - 101px);
+}
+aside{
+  width: 240px;
+  position: relative;
+  padding-top: 101px;
+  border-right: 1px solid #ccc;
+
+
+}
+aside .avatar{
+  text-align: center;
+  position: absolute;
+  top: -100px;
+  width: 100%;
+ 
+  
+}
+aside>div>img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #ccc;
+}
+aside>section{
+  margin: 0 10px 10px 20px;
+padding-bottom:20px;
+border-bottom:1px solid #ccc;
+
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+dt{
+  width: 30%;
+  float: left;
+}
+dd::before{
+  content: ":";
+  padding-right: 10px;
+}
+dd{
+  margin: 0;
+  width: 60%;
+  float: left;
+}
+.item{
+  display: flex;
+  align-items: center;
+}
+.keyword{
+  width: 70px;
+}
+.rule{
+  flex: 1;
+  background:rgb(204, 204, 204);
+  height: 4px;
+}
+i{
+  display: block;
+  background:black;
+  height: 4px;
+}
+div.contact{
+display:flex;
+align-items:center;
+line-height:1.6;
+}
+
+span.contact{
+padding-left:22px;
+}
+main>section{
+  margin:30px 20px 30px 25px;
+padding-bottom:30px;
+border-bottom:1px solid #ccc;
+
+}
+.vue,
+.vue2,
+.university{
+color:black;
+}
+@media (max-width: 768px) {
+      aside {
+        width: 100%;
+        padding-top: 0;
+      }
+      aside .avatar img{
+        width: 120px;
+        height: 120px;
+      }
+      header{
+          padding: 20px 0 90px;
+      }
+      header>h1{
+        margin: 0; 
+      }
+    }
