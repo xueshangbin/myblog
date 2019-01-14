@@ -74,7 +74,7 @@ input{
     vertical-align: middle;
     border: medium none;
 }
-#q{
+form>#q{
     height: 25px;
     width:180px;
     border-radius: 4px;
