@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0,
+     maximum-scale=1.0,minimum-scale=1.0">
+  <style type="text/css">
+    .icon {
+       width: 1em; height: 1em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }
+</style>
+<link rel="stylesheet" href="./canvas.css">
+    <title>canvas</title>
+</head>
+<body>
+<canvas id="canvas" width="800px" height="800px"></canvas>    
+    <div class="qiehuan">    
+    <svg id="pencil" class="icon active"  >
+    <use xlink:href="#icon-pencil"></use></svg> 
+    <svg id="xiangpica" class="icon" >
+    <use xlink:href="#icon-xiangpica"></use></svg>
+    <svg id="clear" class="icon" >
+    <use xlink:href="#icon-clear"></use></svg>
+    <svg id="download" class="icon" >
+    <use xlink:href="#icon-save"></use></svg>
+    </div> 
+  <ol class="colors">
+    <li id="black" class="black active"></li>
+    <li id="red" class="red"></li>
+    <li id="yellow" class="yellow"></li>
+    <li id="blue" class="blue"></li>
+    <li id="grey" class="grey"></li>
+    <li id="green" class="green"></li>
+    <li id="purple" class="purple"></li>
+    <li id="peru" class="peru"></li>
+  </ol>
+  <ol class="sizes">
+    <li id="one" class="one active">1</li>
+    <li id="four" class="four">4</li>
+    <li id="six" class="six">6</li>
+    <li id="eight" class="eight">8</li>
+  </ol>
+  
+<script src=//at.alicdn.com/t/font_952396_vszwsbf0c5a.js></script>
+<script src="./canvas.js"></script>
+</body>
+</html>

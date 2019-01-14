@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0,
+     maximum-scale=1.0,minimum-scale=1.0">
+    <title>canvas</title>
+    <style> 
+    *{ margin: 0;} 
+    #canvas{background:white;
+    display: block;}
+    .qiehuan{
+        position: fixed;
+        bottom:0;
+        left: 0;
+        }
+    .qiehuan>#huabi{display:none;}
+    .qiehuan.x>#huabi{display: inline-block;}
+    .qiehuan.x>#xiangpica{display: none;}
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="800px" height="800px" ></canvas>
+    <div id="qiehuan" class="qiehuan">
+        <button id="xiangpica">橡皮擦</button>
+        <button id="huabi">画笔</button>
+    </div>
+    <script src="canvas1.js"></script>
+</body>
+</html>
